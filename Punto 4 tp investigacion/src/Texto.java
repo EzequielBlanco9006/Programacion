@@ -1,7 +1,7 @@
 
 public class Texto {
 
-	/*private String  texto = null;		
+	private String  texto = null;		
 	private String palabras [] = null;  
 	
 	public Texto(String txt) {
@@ -14,10 +14,9 @@ public class Texto {
 		String palabrasB [] = this.texto.split(" ");
 		
 		int cantidad = palabras.length;
-		*/String resultado = "";
+		String resultado = "";
 		
-		/*for (int i = 0; i < cantidad; i++) {
-			int conatdor = 0;
+		
 			resultado += palabras[i];
 			String palabra = palabras[i];
 			
@@ -54,9 +53,9 @@ public class Texto {
 	public void eliminarPalabra (String palabra){
 		this.texto.replace(palabra,"");
 	}
-	*/
 	
-	}
+	
+
 
 }
 
